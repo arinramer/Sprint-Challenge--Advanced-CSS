@@ -1,1 +1,22 @@
 // Mixins Here
+.column {
+    flex-direction:column;
+}
+
+.row {
+    flex-direction:row;
+}
+
+.btnstyle(@color, @radius) {
+    background-color:@color;
+    border-radius:@radius;
+    color:white;
+    text-align:center;
+    width:30%;
+    padding:3%;
+    font-size:1.8rem;
+    &:hover {
+        background-color:white;
+        color:@color;
+    }
+}

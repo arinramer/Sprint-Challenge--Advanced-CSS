@@ -1,1 +1,26 @@
 // Navigation code here
+h1 {
+    font-size:4rem;
+}
+
+nav {
+    display:flex;
+    justify-content:space-between;
+    .column();
+    align-items:center;
+    padding-top:2%;
+    background-color:@nav-bg;
+    font-family:@nav-font;
+    border-bottom: 3px solid @nav-border;
+    div {
+        display:flex;
+        justify-content:center;
+        .row();
+        a {
+            text-decoration:none;
+            color:@main-font-color;
+            font-size:1.8rem;
+            padding:2%;
+        }
+    }
+}
