@@ -12,6 +12,13 @@ nav {
     background-color:@nav-bg;
     font-family:@nav-font;
     border-bottom: 3px solid @nav-border;
+    position:fixed;
+    top:0;
+    opacity:.8;
+    width:100%;
+    @media @phone {
+        max-width:500px;
+      }
     div {
         display:flex;
         justify-content:center;
